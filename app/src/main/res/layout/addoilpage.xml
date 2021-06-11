@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/line_addoilpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/right_title_line_height"
+        android:layout_marginVertical="@dimen/right_title_marginVertical"
+        android:layout_marginHorizontal="@dimen/right_title_marginHorizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/drawdash"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_addoil_carnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/yellow"
+        android:textSize="@dimen/addoil_process_title_size"
+        android:text="京XXXX"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/yellow"
+        android:textSize="@dimen/addoil_process_title_size"
+        android:text="您已授权成功"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+    </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_top_size"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="枪号"
+            android:textColor="@color/black"
+            android:textSize="@dimen/addoil_process_title_size"
+            android:layout_gravity="center"
+            android:gravity="center">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_add_oil_gunno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="02"
+            android:layout_marginHorizontal="@dimen/margin_hor"
+            android:textColor="@color/red"
+            android:textSize="@dimen/title_size"
+            android:layout_gravity="center"
+            android:gravity="center">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="油品"
+            android:textColor="@color/black"
+            android:textSize="@dimen/addoil_process_title_size"
+            android:layout_marginHorizontal="@dimen/margin_hor"
+            android:layout_gravity="center"
+            android:gravity="center">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_add_oil_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="95#"
+            android:textColor="@color/red"
+            android:textSize="@dimen/title_size"
+            android:layout_gravity="center"
+            android:gravity="center">
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_top_size"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="金额(元):"
+            android:textColor="@color/black"
+            android:textSize="@dimen/addoil_process_title_size"
+            android:layout_gravity="center"
+            android:gravity="center">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_add_oil_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="200元"
+            android:textColor="@color/red"
+            android:textSize="@dimen/title_size"
+            android:layout_gravity="center"
+            android:gravity="center">
+        </TextView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

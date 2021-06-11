@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/line_invade"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/right_title_line_height"
+        android:layout_marginVertical="@dimen/right_title_marginVertical"
+        android:layout_marginHorizontal="@dimen/right_title_marginHorizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/drawdash"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="您已进入机器人工作范围"
+            android:textColor="@color/red"
+            android:textSize="@dimen/addoil_process_title_size"
+            android:textStyle="bold"
+            android:gravity="center">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="请离开工作区域"
+            android:textColor="@color/red"
+            android:textSize="@dimen/addoil_process_title_size"
+            android:textStyle="bold"
+            android:gravity="center">
+        </TextView>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/warntip"
+        android:layout_gravity="center">
+    </ImageView>
+
+</LinearLayout>

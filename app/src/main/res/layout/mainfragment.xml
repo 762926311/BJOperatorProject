@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<include layout="@layout/splash" android:visibility="visible"></include>
+<include layout="@layout/addoilpage" android:visibility="gone"></include>
+<include layout="@layout/addoilpageprocess" android:visibility="gone"></include>
+<include layout="@layout/addoilendpage" android:visibility="gone"></include>
+
+<include layout="@layout/activity_carposition_left" android:visibility="gone"></include>
+<include layout="@layout/activity_carposition_right" android:visibility="gone"></include>
+<include layout="@layout/activity_carposition_top" android:visibility="gone"></include>
+<include layout="@layout/activity_carposition_bottom" android:visibility="gone"></include>
+<include layout="@layout/activity_carposition_true" android:visibility="gone"></include>
+<include layout="@layout/activity_leaveworktip" android:visibility="gone"></include>
+
+<include layout="@layout/operator_end_work" android:visibility="gone"></include>
+
+</FrameLayout>

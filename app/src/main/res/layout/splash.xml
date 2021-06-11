@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/line_splashpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/icon">
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/version"
+        android:textSize="@dimen/version_size"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginVertical="@dimen/version_margin_top"
+        android:textColor="@color/red"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="欢迎光临中国石油"
+        android:textColor="@color/red"
+        android:textSize="@dimen/title_size"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:layout_alignBottom="@id/tv_title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="加油机器人为您服务"
+        android:textColor="@color/red"
+        android:textSize="@dimen/title_size"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_top_size"
+        android:gravity="center"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_index_end"
+        android:layout_alignBottom="@id/tv_title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停车入位后请熄火并解锁油箱"
+        android:textColor="@color/red"
+        android:textSize="@dimen/title_size"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="@dimen/margin_top_size"
+        android:autoLink=""
+        android:gravity="center"
+        android:textStyle="bold">
+    </TextView>
+
+</LinearLayout>

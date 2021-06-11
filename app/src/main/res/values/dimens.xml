@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="head_textview_size">23sp</dimen>
+
+    <!--屏竖尺寸-->
+    <dimen name="title_size">90sp</dimen>
+    <dimen name="addoil_process_title_size">60sp</dimen>
+    <dimen name="margin_top_size">100dp</dimen>
+    <dimen name="margin_hor">20dp</dimen>
+    <dimen name="count_down_size">40sp</dimen>
+    <dimen name="btn_size">32sp</dimen>
+    <dimen name="btn_width">260dp</dimen>
+    <dimen name="version_size">20sp</dimen>
+    <dimen name="version_margin_top">10dp</dimen>
+
+    <!--横屏尺寸-->
+    <dimen name="hor_title_size">140sp</dimen>
+    <dimen name="hor_addoil_process_title_size">70sp</dimen>
+    <dimen name="total_margin_top">100dp</dimen>
+    <dimen name="margin_hor_img">50dp</dimen>
+    <dimen name="margin_top_item">20dp</dimen>
+
+    <!--右侧挪动页面相关参数-->
+    <dimen name="right_title_line_height">300dp</dimen>
+    <dimen name="right_title_marginHorizontal">40dp</dimen>
+    <dimen name="right_title_marginVertical">100dp</dimen>
+    <dimen name="right_content_marginHorizontal">40dp</dimen>
+    <dimen name="right_content_marginVertical">80dp</dimen>
+    <dimen name="right_carimg_width">440dp</dimen>
+    <dimen name="right_carimg_height">666dp</dimen>
+    <dimen name="right_carimg_top">70dp</dimen>
+    <dimen name="right_dash_width">400dp</dimen>
+    <dimen name="right_dash_height">760dp</dimen>
+    <dimen name="right_dash_marginLeft">180dp</dimen>
+    <dimen name="right_dash_marginTop">25dp</dimen>
+    <dimen name="right_dash_tip_marginVertical">140dp</dimen>
+    <dimen name="right_dash_tip_marginLeft">45dp</dimen>
+
+    <!--左侧挪动页面相关参数-->
+    <dimen name="left_dash_tip_marginVertical">140dp</dimen>
+    <!--上面挪动页面相关参数-->
+    <dimen name="top_carimg_top">340dp</dimen>
+    <!--下面挪动页面相关参数-->
+    <dimen name="bottom_carimg_top">10dp</dimen>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/line_carposition_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/right_title_line_height"
+        android:layout_marginVertical="@dimen/right_title_marginVertical"
+        android:layout_marginHorizontal="@dimen/right_title_marginHorizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/drawdash"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_bottom_carNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="京XXXX"
+            android:textColor="@color/red"
+            android:textSize="@dimen/addoil_process_title_size"
+            android:textStyle="bold"
+            android:gravity="center">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="请停入指定的车位范围"
+            android:textColor="@color/red"
+            android:textSize="@dimen/addoil_process_title_size"
+            android:textStyle="bold"
+            android:gravity="center">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/right_content_marginHorizontal"
+        android:layout_marginVertical="@dimen/right_title_marginVertical"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="@dimen/right_carimg_width"
+                android:layout_height="@dimen/right_carimg_height"
+                android:layout_marginTop="@dimen/bottom_carimg_top"
+                android:src="@mipmap/car">
+            </ImageView>
+
+            <ImageView
+               android:layout_width="@dimen/right_dash_width"
+               android:layout_height="@dimen/right_dash_height"
+               android:src="@drawable/drawdash"
+               android:layout_marginTop="@dimen/right_dash_tip_marginVertical">
+           </ImageView>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/right_dash_tip_marginVertical"
+            android:layout_marginLeft="@dimen/right_dash_tip_marginLeft"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请您把车辆往"
+                android:textColor="@color/black"
+                android:textSize="@dimen/addoil_process_title_size">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="后方挪动"
+                android:textColor="@color/red"
+                android:textSize="@dimen/addoil_process_title_size">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
